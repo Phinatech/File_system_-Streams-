@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@types/node": "^18.11.2",
+    "init": "^0.1.2",
+    "inti": "^0.0.0",
+    "ts-node-dev": "^2.0.0"
+  },
+  "name": "node4_streams",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "ts-node-dev --respawn --transpile-only  ./streaming.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
